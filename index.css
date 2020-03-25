@@ -1,0 +1,13 @@
+body {
+    background-color: blue;
+}
+
+.choice {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth {
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,20 +1,36 @@
 <DOCTYPE html>
   <html lang="en">
     <head>
+      <!-- <script src="index.css"></script> -->
+      <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scaled=1.0" />
       <title>Document</title>
     </head>
     <body>
+      <p>Check out these types of inputs for HTML</p>
       <form>
-        <input type="text" name="Name" placeholder="Type Your Name Here" />
-        <input type="email" name="Email" placeholder="Type Your Email Here" />
-
-        Male: <input type="radio" name="Gender" valu="Male" /> Female:
-        <input type="radio" name="Gender" value="Female" /> Other:
-        <input type="radio" name="Gender" value="Other" />
-        <input type="date" name="date" value="date" />
-        <input type="submit" name="submit">
+        <div className="Auth">
+          <input type="text" name="Name" placeholder="Type Your Name Here" />
+          <input type="email" name="Email" placeholder="Type Your Email Here" />
+        </div>
+        <div className="Choice">
+          Male: <input type="radio" name="Gender" valu="Male" /> Female:
+          <input type="radio" name="Gender" value="Female" /> Other:
+          <input type="radio" name="Gender" value="Other" />
+          <input type="date" name="date" value="date" />
+          <input type="submit" name="submit" />
+          <input type="url" name="website" placeholder="Type Your Website" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Type Your Password"
+          />
+          <textarea
+            name="Leave Message"
+            placeholder="Leave Your Message Here"
+          ></textarea>
+        </div>
       </form>
     </body>
   </html>
