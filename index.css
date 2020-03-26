@@ -2,12 +2,16 @@ body {
     background-color: blue;
 }
 
+.auth {
+    display: grid;
+    grid-template-column: 15% 15% 55% 15%;
+    grid-template-row: auto;
+    grid-template-areas: 
+        ". . . auth"
+
+}
+
 .choice {
     display: flex;
     justify-content: flex-end;
-}
-
-.auth {
-    display: flex;
-    justify-content: flex-start;
 }
